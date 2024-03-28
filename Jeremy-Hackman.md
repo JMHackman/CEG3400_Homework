@@ -38,4 +38,4 @@
 * List and link one actual CVE and related CPE that also fell prey to this weakness.  
 	- Link: https://cybernews.com/news/attackers-exploit-atlassians-hard-coded-password-bug/
 
-	- List: The company Atlassian, had issues with a hardcoded password. There was a critical vulnrability in its Confluence app. The vulnrability was labeled as a CVE-2022-26138, but can be boiled down to a CVE-798. The password vulnrability was leaked on twitter and spread quickly and allowed actors to gain full access over unpatched servers.
+	- List: The company Atlassian, had issues with a hardcoded password. There was a critical vulnrability in its Confluence app. The vulnrability was labeled as a CVE-2022-26138, but can be boiled down to a CWE-798. The password vulnrability was leaked on twitter and spread quickly and allowed actors to gain full access over unpatched servers.
