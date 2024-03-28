@@ -2,7 +2,7 @@
  
 	- Name: Use of Hard-coded Credentials
 
-	- CWE number: CWE-798  
+	- CWE number: 798  
 
 	- Link: https://cwe.mitre.org/data/definitions/798.html
 
