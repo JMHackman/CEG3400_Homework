@@ -36,6 +36,6 @@
 	- The most simple solution, and only solution should be to remove the password. The password should have never been stored and should never be saved into the code itself as it is a hazard to any and all who use that command or code. There should be no work arounds to incorporate passwords into code as they are meant to be secure and safe, and being paraded to all that look even a bit harder than any other is not a good method of safekeeping.
 
 * List and link one actual CVE and related CPE that also fell prey to this weakness.  
-	- Link: https://cybernews.com/news/attackers-exploit-atlassians-hard-coded-password-bug/
+	- Link: https://www.cve.org/CVERecord?id=CVE-2021-35033
 
-	- List: The company Atlassian, had issues with a hardcoded password. There was a critical vulnrability in its Confluence app. The vulnrability was labeled as a CVE-2022-26138, but can be boiled down to a CWE-798. The password vulnrability was leaked on twitter and spread quickly and allowed actors to gain full access over unpatched servers.
+	- List: A vulnerability in specific versions of Zyxel NBG6818, NBG7815, WSQ20, WSQ50, WSQ60, and WSR30 firmware with pre-configured password management. This allowed an attacker to obtain rot access of the device. Only if an attacker dismantles the device and uses a USB-to-UART cable to connect the device, or if the remote assistance feature had been enabled. The vulnrability was labeled as a CVE-2021-35033, but can be boiled down to a CWE-798. As it is in more simplified terms, a hardcoded password vulnerability.
