@@ -5,7 +5,7 @@
 
 	- Link: https://cwe.mitre.org/data/definitions/798.html
 
-	- Explanation: "The product contains hard-coded credentials, such as a password or cryptographic key, which it uses for its own inbound authentication, outbound communication to external components, or encryption of internal data." In other words a hard-coded password, for my example.
+	- Explanation: A password, passkey, passphrase, confidential login code numbers, etc. One of these credential type things, that are coded directly into the code.  
 
 * Your Well Formed CPE name (fake but well formed!!!, unless you actually have a CPE for it), explain each field you chose to use, be sure to assign a version via Semantic Versioning 2.0.  
 	- CPE name:  `cpe:2.3:a:hackman_company:pass_storage:1.0:1.4:GoldTier:en:windows_11:*`
@@ -33,8 +33,8 @@
 	- Experience: I made a thing that would have an actual password stored in the code itself that would allow access. To me it made thet piece of code easier to work with as I did not have to type in a password. If someone wanted to however, they could check the hard code and see that the password was already in place, therefore violating and being a CWE-798. 
 
 * How you could have fixed it (what would you need to have done to not implement this weakness in your code). 
-	- F
+	- The most simple solution, and only solution should be to remove the password. The password should have never been stored and should never be saved into the code itself as it is a hazard to any and all who use that command or code. There should be no work arounds to incorporate passwords into code as they are meant to be secure and safe, and being paraded to all that look even a bit harder than any other is not a good method of safekeeping.
 * List and link one actual CVE and related CPE that also fell prey to this weakness.  
-	- Q
-* Write up (at least) three paragraphs explaining your CPE, describing the CWE you put into code, how your code was vulnerable to it, and how you could have changed the code to not be vulnerable.  
-	- Q
+	- Link: https://cybernews.com/news/attackers-exploit-atlassians-hard-coded-password-bug/
+
+	- List: The company Atlassian, had issues with a hardcoded password. There was a critical vulnrability in its Confluence app. The vulnrability was labeled as a CVE-2022-26138, but can be boiled down to a CVE-798. The password vulnrability was leaked on twitter and spread quickly and allowed actors to gain full access over unpatched servers.
