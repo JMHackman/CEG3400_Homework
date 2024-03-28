@@ -34,6 +34,7 @@
 
 * How you could have fixed it (what would you need to have done to not implement this weakness in your code). 
 	- The most simple solution, and only solution should be to remove the password. The password should have never been stored and should never be saved into the code itself as it is a hazard to any and all who use that command or code. There should be no work arounds to incorporate passwords into code as they are meant to be secure and safe, and being paraded to all that look even a bit harder than any other is not a good method of safekeeping.
+
 * List and link one actual CVE and related CPE that also fell prey to this weakness.  
 	- Link: https://cybernews.com/news/attackers-exploit-atlassians-hard-coded-password-bug/
 
