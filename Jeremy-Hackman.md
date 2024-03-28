@@ -30,9 +30,9 @@
 	- Severity: Its severity is quite high but, it is not common as only amateurs would hardcode a password, or allow a password to be implanted and stored with the same credentials everytime.
 
 * What your personal experience is with the CWE.  
-	- Experience: I made a thing that would 
+	- Experience: I made a thing that would have an actual password stored in the code itself that would allow access. To me it made thet piece of code easier to work with as I did not have to type in a password. If someone wanted to however, they could check the hard code and see that the password was already in place, therefore violating and being a CWE-798. 
 
-* How you could have fixed it (what would you need to have done to not implement this weakness in your code).  
+* How you could have fixed it (what would you need to have done to not implement this weakness in your code). 
 	- F
 * List and link one actual CVE and related CPE that also fell prey to this weakness.  
 	- Q
